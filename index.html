@@ -249,6 +249,26 @@
   }
   footer a{color:#b9c2bd}
 
+  /* ---------- Sponsors ---------- */
+  .sponsors{
+    background:#0c1116;padding:48px 24px 8px;text-align:center;
+    border-top:1px solid rgba(255,255,255,.08);
+  }
+  .sponsors-label{
+    font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+    color:#6b7570;margin-bottom:22px;
+  }
+  .sponsors-row{
+    max-width:900px;margin:0 auto;display:flex;justify-content:center;
+    align-items:center;flex-wrap:wrap;gap:14px 10px;
+  }
+  .sponsors-row a{
+    text-decoration:none;color:#c9d1d8;font-size:.88rem;font-weight:600;
+    padding:10px 20px;border:1px solid rgba(255,255,255,.16);border-radius:999px;
+    transition:border-color .15s,color .15s;
+  }
+  .sponsors-row a:hover{border-color:var(--gold);color:var(--gold)}
+
   @media (max-width:640px){
     .nav-links{display:none}
     section{padding:60px 20px}
@@ -725,8 +745,18 @@
     then submit your application — our team will confirm your participation by email.
   </p>
   <!-- ▼ Replace href with your registration form URL (e.g. Google Form / event platform) -->
-  <a class="btn-primary" href="#" role="button">Apply for the Fam Tour</a>
+  <a class="btn-primary" href="https://forms.gle/61hhVVsMcziSJCzZA" target="_blank" rel="noopener" role="button">Apply for the Fam Tour</a>
   <p class="apply-small">Application deadline and eligibility details will be announced by the organizing committee.</p>
+</section>
+
+<section class="sponsors">
+  <div class="sponsors-label">Sponsored by</div>
+  <div class="sponsors-row">
+    <a href="https://www.busan.go.kr" target="_blank" rel="noopener">Busan Metropolitan City</a>
+    <a href="https://bto.or.kr/" target="_blank" rel="noopener">Busan Tourism Organization</a>
+    <a href="https://www.gyeongju.go.kr" target="_blank" rel="noopener">Gyeongju City</a>
+    <a href="https://www.hico.or.kr/" target="_blank" rel="noopener">Gyeongju Hwabaek Convention Bureau</a>
+  </div>
 </section>
 
 <footer>
